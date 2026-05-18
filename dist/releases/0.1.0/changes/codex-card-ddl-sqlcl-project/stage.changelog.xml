@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+<include file="wksp_arunext/tables/mtg_card_copies.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/tables/mtg_locations.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/tables/mtg_scryfall_cards.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/tables/mtg_scryfall_card_faces.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/comments/mtg_card_copies.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/comments/mtg_locations.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/comments/mtg_scryfall_cards.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/comments/mtg_scryfall_card_faces.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/indexes/mtg_card_copies_card_ix.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/indexes/mtg_card_copies_location_ix.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/indexes/mtg_scryfall_cards_name_ix.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/indexes/mtg_scryfall_cards_oracle_ix.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/indexes/mtg_scryfall_cards_set_ix.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/ref_constraints/mtg_card_copies_card_fk.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/ref_constraints/mtg_card_copies_location_fk.sql" relativeToChangelogFile="true"/>
+<include file="wksp_arunext/ref_constraints/mtg_scryfall_card_faces_fk.sql" relativeToChangelogFile="true"/>
+</databaseChangeLog>

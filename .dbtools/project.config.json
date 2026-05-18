@@ -6,7 +6,7 @@
     "version" : "26.1.2.0"
   },
   "schemas" : [ "WKSP_ARUNEXT" ],
-  "lastReleaseVersion" : "",
+  "lastReleaseVersion" : "0.1.0",
   "export" : {
     "format" : {
       "enable" : true
